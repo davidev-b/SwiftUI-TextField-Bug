@@ -11,8 +11,6 @@ import SwiftUI
 struct ContentView: View {
     @State var s_name : String = ""
     
-    @State var s_date : Date = Date()
-    
     var body: some View {
         //Bug Cursor
         

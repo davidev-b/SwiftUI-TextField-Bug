@@ -14,6 +14,7 @@
 		634DC2E824A560D800D3B239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634DC2E624A560D800D3B239 /* Main.storyboard */; };
 		634DC2F424A560D800D3B239 /* SwiftUIBugTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DC2F324A560D800D3B239 /* SwiftUIBugTests.swift */; };
 		634DC2FF24A560D800D3B239 /* SwiftUIBugUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634DC2FE24A560D800D3B239 /* SwiftUIBugUITests.swift */; };
+		6387702524AB315C00E83956 /* DatePickerBug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6387702424AB315C00E83956 /* DatePickerBug.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		634DC2FA24A560D800D3B239 /* SwiftUIBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		634DC2FE24A560D800D3B239 /* SwiftUIBugUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBugUITests.swift; sourceTree = "<group>"; };
 		634DC30024A560D800D3B239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6387702424AB315C00E83956 /* DatePickerBug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerBug.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				634DC2DD24A560D600D3B239 /* AppDelegate.swift */,
 				634DC2DF24A560D600D3B239 /* ContentView.swift */,
+				6387702424AB315C00E83956 /* DatePickerBug.swift */,
 				634DC2E124A560D800D3B239 /* Assets.xcassets */,
 				634DC2E624A560D800D3B239 /* Main.storyboard */,
 				634DC2E924A560D800D3B239 /* Info.plist */,
@@ -268,6 +271,7 @@
 			files = (
 				634DC2E024A560D600D3B239 /* ContentView.swift in Sources */,
 				634DC2DE24A560D600D3B239 /* AppDelegate.swift in Sources */,
+				6387702524AB315C00E83956 /* DatePickerBug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
