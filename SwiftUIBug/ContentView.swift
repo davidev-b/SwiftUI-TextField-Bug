@@ -18,14 +18,14 @@ struct ContentView: View {
         
         HStack
         {
+            //Creating textField here
             TextField("Name", text: $s_name)
+                //setting PlainTextFieldStyle
                 .textFieldStyle(PlainTextFieldStyle())
                 .padding(5)
+                //here setting large Title as Font, this will increase font, but not inital cursor size
                 .font(.largeTitle)
-                .multilineTextAlignment(.center)
-            
-            //Jumping back after type to beginning
-            //DatePicker("Hour", selection: self.$s_date, displayedComponents: .hourAndMinute)
+                .multilineTextAlignment(.center)            
         }
     }
 }
