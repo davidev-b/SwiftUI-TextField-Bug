@@ -9,9 +9,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var s_name : String = ""
+    
+    @State var s_date : Date = Date()
+    
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        //Bug Cursor
+        
+        HStack
+        {
+            TextField("Name", text: $s_name)
+                .textFieldStyle(PlainTextFieldStyle())
+                .padding(5)
+                .font(.largeTitle)
+                .multilineTextAlignment(.center)
+            
+            //Jumping back after type to beginning
+            //DatePicker("Hour", selection: self.$s_date, displayedComponents: .hourAndMinute)
+        }
     }
 }
 
